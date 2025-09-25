@@ -1,0 +1,14 @@
+
+if SHIELD_TESSERA_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "tessera"
+
+endif
+
+if SHIELD_TESSERA_LEFT || SHIELD_TESSERA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
