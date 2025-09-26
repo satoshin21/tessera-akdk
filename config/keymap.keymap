@@ -2,6 +2,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 15>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
