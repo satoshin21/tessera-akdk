@@ -1,9 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&lt {
-    flavor = "tap-unless-interrupted";
-};
+&lt { flavor = "tap-unless-interrupted"; };
 
 / {
     combos {
@@ -12,6 +10,11 @@
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <16 15>;
+        };
+
+        to_keyboard_config {
+            bindings = <&to 3>;
+            key-positions = <45 46 44>;
         };
     };
 
@@ -45,12 +48,12 @@
             >;
         };
 
-        layer_3 {
+        keyboard_config {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
