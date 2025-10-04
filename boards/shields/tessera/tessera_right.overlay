@@ -46,8 +46,17 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)
+                           &zip_temp_layer 5 5000>;
     };
+};
+
+&zip_temp_layer {
+    excluded-positions = <19 20 21 31 32>;
+};
+
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 5 5000>;
 };
 
 &physical_layout0 {
