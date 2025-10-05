@@ -81,5 +81,14 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans  &trans
             >;
         };
+
+        layer_6_scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
     };
 };
