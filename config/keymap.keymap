@@ -14,8 +14,8 @@
             key-positions = <16 15>;
         };
 
-        to_keyboard_config {
-            bindings = <&to 3>;
+        mo_bluetooth_layer {
+            bindings = <&mo 3>;
             key-positions = <45 46 44>;
         };
 
