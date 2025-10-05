@@ -77,8 +77,17 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &mo 6      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans  &trans
+            >;
+        };
+
+        layer_6_scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
