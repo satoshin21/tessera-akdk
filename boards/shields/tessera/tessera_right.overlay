@@ -51,14 +51,14 @@
 
         scroller {
           layers = <6>;
-          input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT)>, <&zip_scroll_scaler 1 128>;
+          input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 2 128>;
           process-next;
         };
     };
 };
 
 &zip_temp_layer {
-    excluded-positions = <19 20 21 31 32>;
+    excluded-positions = <19 20 21 31 32 33>;
 };
 
 
