@@ -23,6 +23,11 @@
             bindings = <&tog 4>;
             key-positions = <36 46 41 42>;
         };
+
+        kl_to_layer1 {
+            bindings = <&tog 1>;
+            key-positions = <34 35>;
+        };
     };
 
     keymap {
