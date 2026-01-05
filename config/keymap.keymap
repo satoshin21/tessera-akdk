@@ -53,10 +53,10 @@
 
         layer_2_input {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N5))  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(SEMI)    &kp LANG2  &kp LANG1  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N5))  &kp LS(LG(NUMBER_4))  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(SEMI)    &kp LANG2             &kp LANG1  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans     &trans  &trans
             >;
         };
 
